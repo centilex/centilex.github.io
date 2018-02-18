@@ -1,3 +1,9 @@
+/*
+* {
+    border: 1px solid blue;
+}
+*/
+
 @font-face {
     font-family: 'centauri.airegular';
     src: url('fonts/centauri.ai-webfont.woff2') format('woff2'),
@@ -8,15 +14,30 @@
 }
 
 
-h1 {
-    display: flex;
+h1{
     color: white;
+    font-size: 40px;
+    font-family: "centauri.airegular";
+}
+
+
+h2, p {
+    color: white;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 100vh;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
-    font-family: "centauri.airegular"
+}
+
+.company {
+    margin-bottom: -42px;
+
 }
 
 
